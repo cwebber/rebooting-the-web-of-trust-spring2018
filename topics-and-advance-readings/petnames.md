@@ -92,12 +92,14 @@ However, Eva's petname database does a couple of things: it marks that
 this name was given "by introduction" and adds a small amount of
 random identifier information alongside it.
 When it renders in Eva's mail reader, she sees
-`Dr. Nym::ccadf77b` with a blue icon that shows two people
+`Dr. Nym::1` with a blue icon that shows two people
 with an arrow drawn between them.
 This is important because Eva can tell that this name was given to her
 by introduction (hovering over it might even tell her additional
 context, such as that it was Alyssa who made the introduction) and the
-`ccadf77b` extra bit of random information prevents conflicts.
+`1` extra bit of information prevents conflicts.
+(A more advanced way to represent this would be to use "paths";
+Eva's client could say `Dr. Nym::from Alyssa`, for instance.)
 Eva is grateful for this because, while this is the first Dr. Nym she
 has been introduced to, she previously was introduced to several Bob
 Smiths and was glad that the world did not have to agree on only one
@@ -131,7 +133,7 @@ Eva's computer responds by suggesting that the name "Dr. Nym"
 may be appropriate and so Carlos's petname database adds this, also
 recording that this was a suggestion through the web of trust and
 adding a bit of random identifier information.
-This renders as `Dr. Nym::5af7a60b` with a purple web, reminding
+This renders as `Dr. Nym::1` with a purple web, reminding
 Carlos that this came from his web of trust.
 Carlos also queries the campus directory (an oracle, and many oracles
 could be queried or added to one's web of trust) to find out whether
